@@ -108,8 +108,8 @@ export default ({ children, title, ...props }) => {
             mb: 4,
           })}
         >
-          <Title {...props}>Synapse Flux
-            {/* <img
+          <Title {...props}>
+            <img
               alt="site logo"
               src={synapsefluxlogo}
               width="1200"
@@ -118,8 +118,8 @@ export default ({ children, title, ...props }) => {
               css={{
                 pointerEvents: `none`,
                 marginLeft: `-20%`
-              }} 
-            />*/}
+              }}
+          />
          
                       </Title>
           {children}
