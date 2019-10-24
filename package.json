@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "gatsby build",
     "build": "gatsby build"
   },
   "dependencies": {
