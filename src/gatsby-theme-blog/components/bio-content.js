@@ -7,8 +7,7 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Taylor lives in a house by some trees. Sometimes he looks at them.
-    <br />
-    . . . trees.
+    Taylor Bird is a modern romantic searching for moments of understanding, wonder and connection 
+    through shared ideas and experience. If you find some, he'd love to hear about 'em.
   </Fragment>
 )
