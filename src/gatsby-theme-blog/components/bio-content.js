@@ -7,7 +7,8 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Taylor Bird is a modern romantic searching for moments of understanding, wonder and connection 
-    through shared ideas and experience. If you find some, he'd love to hear about 'em.
+    Taylor Bird made this blog to help him find the connections and share them.
+    You know the connections. There are lots of them and some of them will be found
+    here.
   </Fragment>
 )
