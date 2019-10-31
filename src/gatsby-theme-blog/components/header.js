@@ -107,23 +107,24 @@ export default ({ children, title, ...props }) => {
             alignItems: `baseline`,
             mb: 4,
           })}
-        >
+        > 
+
           <Title {...props}>
-            <img
+                       <img
               alt="site logo"
               src={synapsefluxlogo}
-              width="1200"
-              height="306"
+              width="1000"
+              height="250"
               role="presentation"
               css={{
                 pointerEvents: `none`,
-                marginLeft: `-20%`
+                marginLeft: `-10%`
               }}
           />
          
                       </Title>
           {children}
-          <Switch
+          {/* <Switch
             aria-label="Toggle dark mode"
             css={css({
               bg: `black`,
@@ -132,7 +133,7 @@ export default ({ children, title, ...props }) => {
             uncheckedIcon={true}
             checked={isDark}
             onChange={toggleColorMode}
-          />
+          /> */}
         </div>
         {props.location.pathname === rootPath && <Bio />}
       </div>
