@@ -7,8 +7,8 @@ import { Styled } from "theme-ui"
 
 export default () => (
   <Fragment>
-    Taylor Bird made this blog to help him find the connections and share them.
-    You know the connections. There are lots of them and some of them will be found
-    here.
+    Taylor Bird wants to build inspiring things, educate and learn from others. He likes taking things
+    back to fundamentals as far as he is capable, and is probably most happy when he attempts to mix lessons from 
+    the real and the rational with inspiring and original works of fantasy.
   </Fragment>
 )
