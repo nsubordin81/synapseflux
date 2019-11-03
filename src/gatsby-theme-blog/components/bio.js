@@ -11,6 +11,10 @@ import Image from "gatsby-image"
 import { Styled, css, Flex } from "theme-ui"
 import BioContent from "./bio-content.js"
 
+const BioContentWrapper = styled.div`
+  width: 90%
+`
+
 const Bio = () => {
   const data = useStaticQuery(bioQuery2)
   const {
@@ -44,9 +48,9 @@ const Bio = () => {
           role="presentation"
         />
       )}
-      <Styled.div>
+      <BioContentWrapper>  
         <BioContent />
-      </Styled.div>
+      </BioContentWrapper>
     </Flex>
   )
 }
