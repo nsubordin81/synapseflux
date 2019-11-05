@@ -45,7 +45,7 @@ const Bio = () => {
           role="presentation"
         />
       )}
-      <Styled.div style={{ width: `50%`}}>
+      <Styled.div style={{ width: `90%`}}>
         <BioContent />
       </Styled.div>
     </Flex>
