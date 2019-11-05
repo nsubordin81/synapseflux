@@ -1,0 +1,19 @@
+.synapse-flux::before {
+    content: '';
+    position: absolute;
+    background-Color: black;
+    width: 80%;
+    height: 3px;
+    top: 0;
+    left: 0;
+}
+
+.synapse-flux::after {
+    content: '';
+    position: absolute;
+    background-Color: black;
+    width: 80%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}

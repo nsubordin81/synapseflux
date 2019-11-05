@@ -10,6 +10,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 import { Styled, css, Flex } from "theme-ui"
 import BioContent from "./bio-content.js"
+// import "./bio.css"
 
 
 const Bio = () => {
@@ -25,6 +26,7 @@ const Bio = () => {
     <Flex css={css({ mb: 4 })}>
       {avatar ? (
         <Image
+          className="synapse-flux"
           fixed={avatar.childImageSharp.fixed}
           alt={author}
           css={css({
