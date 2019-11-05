@@ -108,7 +108,6 @@ export default ({ children, title, ...props }) => {
             mb: 4,
           })}
         > 
-
           <Title {...props}>
                        <img
               alt="site logo"
