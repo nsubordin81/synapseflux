@@ -117,7 +117,7 @@ export default ({ children, title, ...props }) => {
               role="presentation"
               css={{
                 pointerEvents: `none`,
-                marginLeft: `-10%`
+                marginLeft: `-16.5%`
               }}
           />
          
