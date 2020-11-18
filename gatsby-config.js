@@ -15,7 +15,7 @@ module.exports = {
   siteMetadata: {
     title: `Synapse Flux`,
     author: `Taylor Bird`,
-    description: `A Blog To Connect Concepts And Celebrate Potential.`,
+    description: `Come watch while this totally unqualified person throws shallow thoughts at deep ideas.`,
     social: [
       {
         name: ``,
