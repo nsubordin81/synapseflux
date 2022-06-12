@@ -1,3 +1,5 @@
+# NOTE: I will likely be archiving this repository sometime soon, I went in a different direction for my personal website and have been iterating on that in a different repository. 
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
